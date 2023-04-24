@@ -1,0 +1,143 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F8F8;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: #F8F8F8;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #F8F8F8;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    color: #EEE;
+  }
+  
+  /* Home Section */
+  #home {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #home h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #home p {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.5;
+  }
+  
+  /* Subscribe Section */
+  #subscribe {
+    padding: 50px;
+    text-align: center;
+    background-color: #EEE;
+  }
+  
+  #subscribe h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #subscribe form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #subscribe label {
+    font-size: 18px;
+  }
+  
+  #subscribe input[type=email] {
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #subscribe input[type=submit] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #F8F8F8;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  #subscribe input[type=submit]:hover {
+    background-color: #444;
+  }
+  
+  /* Social Media Section */
+  #socialmedia {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #socialmedia h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #socialmedia ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #socialmedia li {
+    margin-right: 20px;
+  }
+  
+  #socialmedia li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  #socialmedia li a:hover {
+    color: #666;
+  }
+  
