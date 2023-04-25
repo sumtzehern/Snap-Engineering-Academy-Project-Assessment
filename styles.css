@@ -202,3 +202,56 @@
 .gallery-item:hover img {
   transform: scale(1.3);
 }
+
+/* Headwear Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.gallery-item {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  scroll-snap-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out;
+}
+
+.item-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: center;
+}
+
+.item-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.item-price {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.3);
+}
+
